@@ -1,0 +1,15 @@
+browserType: Chrome
+URLName: "http://gmail.com"
+FileName: UserDetails.csv 
+sheetNumber: 0
+pineapples: 1
+UserNameFieldXpath: //*[@id='identifierId']
+# NextButtonXpath: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/div[2]
+UserNameNextButtonXpath: //*[@id ="identifierNext"]
+PasswordNextButtonXpath: //*[@id ="passwordNext"]
+PasswordFieldXpath: //*[@id='password']/div[1]/div/div[1]/input
+SearchFieldXpath: //div[contains(@id, 'gs_lc50')]/input[1]
+SearchButtonXpath: //button[contains(@class, 'gb_yf gb_zf')]
+EmailThreadsXpath: //span[@class='bog']
+SubjectFieldXpath: //h2[@class='hP']
+BodyFieldXpath: //div[@class='a3s aXjCH ']/div
