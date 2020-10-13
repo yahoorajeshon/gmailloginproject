@@ -1,10 +1,8 @@
 browserType: Chrome
 URLName: "http://gmail.com"
-FileName: UserDetails.csv 
+FileName: UserDetails.csv
 sheetNumber: 0
-pineapples: 1
 UserNameFieldXpath: //*[@id='identifierId']
-# NextButtonXpath: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/div[2]
 UserNameNextButtonXpath: //*[@id ="identifierNext"]
 PasswordNextButtonXpath: //*[@id ="passwordNext"]
 PasswordFieldXpath: //*[@id='password']/div[1]/div/div[1]/input
